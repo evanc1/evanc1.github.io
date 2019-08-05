@@ -15,7 +15,7 @@ body {
 .item {
  width: 50%;
  background-color: white;
- margin-bottom:15px;
+ margin:15px auto;
 }
 .content .col-md-4 {
  text-align: center;
