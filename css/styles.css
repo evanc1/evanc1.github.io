@@ -10,10 +10,9 @@ body {
 }
 .header {
  background-color:white;
- margin-bottom:35px;
 }
 .item {
- width: 50%;
+ width: 75%;
  background-color: white;
  margin:15px auto;
 }
