@@ -12,4 +12,12 @@ body {
  background-color:white;
  margin-bottom:35px;
 }
+.item {
+ width: 50%;
+ background-color: white;
+ margin-bottom:15px;
+}
+.content .col-dm-4 {
+ text-align: center;
+}
   
