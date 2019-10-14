@@ -3,7 +3,7 @@ var p = {
 {"title": "Tales from EarthSea",
 "author": "Ursula K. Le Guin",
 "price": "$5.99"}
-,{"title": "The Other Wind",
+,{"title": "The Other Wind"
 "author": "Ursula K. Le Guin",
 "price": "$6.99"}
 ,{"title": "The Left Hand of Darkness",
