@@ -18,7 +18,15 @@
 
 <body>
 
-    <script src="scripts/buildGrid.js"></script>
+    <script>
+      var lineReader = require('readline').createInterface({
+      input: require('fs').createReadStream('books.txt')
+      });
+
+      lineReader.on('line', function (line) {
+      console.log('Line from file:', line);
+      });
+  </script>
   <div class="header">
     <h1>Ervin's wares</h1>
      <div class="top-nav">
