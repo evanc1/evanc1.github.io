@@ -1,7 +1,7 @@
 $.getJSON('/data/book.json', function(data) {         
     var items = [];
-  $.each( data, function( key, val ) {
-    items.push( "<li id='" + key.toString() + "'>" + val.toString() + "</li>" );
+  $.each( JSON.stringify(data), function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
   });
  
   $( "<ul/>", {
