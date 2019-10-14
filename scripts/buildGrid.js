@@ -1,8 +1,12 @@
+var fs = require('fs'),
+    readline = require('readline');
 
-var lineReader = require('readline').createInterface({
-  input: require('fs').createReadStream('books.txt')
+var rd = readline.createInterface({
+    input: fs.createReadStream('/path/to/file'),
+    output: process.stdout,
+    console: false
 });
 
-lineReader.on('line', function (line) {
-  console.log('Line from file:', line);
-});
+rd.on('line', function(line) {
+    console.log(line);
+})
