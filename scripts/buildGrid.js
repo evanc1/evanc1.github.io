@@ -1,6 +1,7 @@
 $.getJSON('/data/book.json', function(data) {         
     var items = [];
-  $.each( data, function( key, val ) {
+    var myJSON = JSON.stringify(data);
+  $.each( myJSON, function( key, val ) {
     items.push( "<li id='" + key + "'>" + val + "</li>" );
   });
  
