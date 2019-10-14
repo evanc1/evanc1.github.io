@@ -1,3 +1,3 @@
-import * as data from '../data/book.json';
-const {name} = data;
-console.log(name); // output 'testing'
+var tdata = JSON.parse(Book);
+
+console.log(tdata[1].title);
